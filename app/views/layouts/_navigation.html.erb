@@ -15,8 +15,14 @@
     </div>
     <% if !logged_in? %>
     <div class="item">
-      <%= link_to login_path do %>
-        <div class="ui primary button">Log In</div>
+      <%= link_to signup_path do %>
+        <div class="ui primary button">Sign Up</div>
+      <% end %>
+    </div>
+    <% else %>
+    <div class="item">
+      <%= link_to logout_path, method: :delete do %>
+        <div class="ui primary button">Log Out</div>
       <% end %>
     </div>
     <% end %>
