@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'semantic-ui-sass', '~> 2.4', '>= 2.4.0.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 # Use Redis adapter to run Action Cable in production
-gem 'redis', '~> 4.0'
+# gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'hirb', '~> 0.7.3'
